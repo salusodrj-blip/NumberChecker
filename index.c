@@ -3,7 +3,7 @@
 int main(){
     // Check if a number is even or nodd
     int number;
-    char choice;
+    char choice;[10];
    do{
      
     printf("Enter any Number: ");
@@ -14,7 +14,7 @@ int main(){
         printf("%d odd number!",number);
     }
 
-    printf("\nDo you want to check another number? (Y/N: )");
+    printf("\nDo you want to check another number? (yes/no: )");
     scanf(" %s", choice);
 
 
